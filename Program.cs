@@ -12,7 +12,7 @@ namespace ConsoleApplication
             cat = cat.ToUpper();
 
             for(var i = 0;i<11; i++)
-            System.Console.WriteLine(i);
+            System.Console.WriteLine(cat);
         }
     }
 }
