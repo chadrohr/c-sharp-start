@@ -1,18 +1,19 @@
 ﻿using System;
+using ConsoleApplication.Models;
 
 namespace ConsoleApplication
 {
     public class Program
     {
+
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            var cat = "Garfield";
-            cat = "Tom";
-            cat = cat.ToUpper();
-
-            for(var i = 0;i<11; i++)
-            System.Console.WriteLine(cat);
+            var chad = new Person("Chad", 46);
+            var x = new Pet("Obi");
+            chad.Birthday();
+            Console.WriteLine($"{chad.Name} is {chad.Age}");
         }
     }
+
 }
+

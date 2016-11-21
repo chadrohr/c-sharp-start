@@ -88,3 +88,5 @@
 --reference:/Users/chadrohr/.nuget/packages/System.Xml.ReaderWriter/4.3.0/ref/netstandard1.3/System.Xml.ReaderWriter.dll
 --reference:/Users/chadrohr/.nuget/packages/System.Xml.XDocument/4.3.0/ref/netstandard1.3/System.Xml.XDocument.dll
 /Users/chadrohr/source/codeworks/csharp/hwapp/Program.cs
+/Users/chadrohr/source/codeworks/csharp/hwapp/Models/Person.cs
+/Users/chadrohr/source/codeworks/csharp/hwapp/Models/Pet.cs
