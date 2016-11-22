@@ -11,7 +11,7 @@ namespace ConsoleApplication
             var chad = new Person("Chad", 46);
             var x = new Pet("Obi");
             chad.Birthday();
-            Console.WriteLine($"{chad.Name} is {chad.Age}");
+            Console.WriteLine($"{chad.Name} is {chad.Age} and his pets name is {x.Name}.");
         }
     }
 
