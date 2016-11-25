@@ -32,6 +32,7 @@ namespace ConsoleApplication
             var person = new Person(name, a);
 
             var dog = new Pet("Fido");
+            dog.Speak();
 
             person.AddPet(dog);
 
